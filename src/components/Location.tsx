@@ -7,7 +7,7 @@ export default function Location() {
     return (
         <div className="flex flex-col items-center px-40 mt-24 w-full">
             <div className="flex flex-col items-center gapx-5">
-                <h2 className="text-2xl font-bold">Luxury Party Bus NYC</h2>
+                <h2 className="text-3xl font-bold">Luxury Party Bus NYC</h2>
                 <span className="flex gap-4">
                     <p>Star 4.5</p>
                     <p>10 reservations</p>

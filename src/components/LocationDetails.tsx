@@ -1,6 +1,6 @@
 export default function LocationDetails() {
     return (
-        <div className="flex justify-between items-center gap-5 px-40 mt-24 w-full">
+        <div className="flex justify-between items-center gap-5 px-10 mt-24 w-full">
             <div className="flex flex-col gap-1 w-3/5">
                 <h3 className='flex items-center gap-1 text-2xl'><strong>Hosted by</strong> Ryan Malmos</h3>
                 <p>10 Guests</p>
