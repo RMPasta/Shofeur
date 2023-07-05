@@ -7,10 +7,10 @@ export default function Navigation() {
           <SlideOutMenu />
           <h1 className="text-3xl">Shofeur</h1>
         </div>
-        <div className="flex justify-between items-center h-full w-1/3">
-          <a className="transition-colors duration-700 hover:bg-slate-700 w-1/3 h-full flex items-center justify-center hover:cursor-pointer">Add a Listing</a>
-          <a className="transition-colors duration-700 hover:bg-slate-700 w-1/3 h-full flex items-center justify-center hover:cursor-pointer">Sign Up</a>
-          <a className="transition-colors duration-700 hover:bg-slate-700 w-1/3 h-full flex items-center justify-center hover:cursor-pointer">Log In</a>
+        <div className="flex h-full w-2/5">
+          <a className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer">Add a Listing</a>
+          <a className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer">Sign Up</a>
+          <a className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer">Log In</a>
         </div>
       </div>
     );
