@@ -10,8 +10,7 @@ export default function OwnerDetails() {
         <div className="flex justify-between gap-5 px-10 mt-24 w-full">
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg shadow-lg p-10">
-                    <FontAwesomeIcon icon={faIdCard} className="self-start text-gray-600 text-6xl" />
-                    <p>Chauffeur Always Included</p>
+                    <p className="flex gap-5 items-center font-bold text-xl"><FontAwesomeIcon icon={faIdCard} className="self-start text-gray-600 text-6xl" />Chauffeur Always Included</p>
                     <p>Every reservation includes a chauffeur to drive the vehicle.</p>
                 </div>
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg shadow-lg p-10">
