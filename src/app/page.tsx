@@ -1,5 +1,5 @@
-import Location from "@/components/Location"
-import Navigation from "@/components/Navigation"
+import Location from "@/components/Location/Location"
+import Navigation from "@/components/NavBar/Navigation"
 
 export default function Home() {
   return (
