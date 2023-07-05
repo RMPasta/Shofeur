@@ -24,11 +24,11 @@ export default function SlideOutMenu() {
         {(showX ?
         <FontAwesomeIcon
         icon={faXmark}
-        className="text-gray-200 text-2xl"
+        className="text-gray-200 text-3xl"
       /> :
         <FontAwesomeIcon
         icon={faBars}
-        className="text-gray-200 text-2xl"
+        className="text-gray-200 text-2xl pr-0.5"
       />
         )}
       </p>

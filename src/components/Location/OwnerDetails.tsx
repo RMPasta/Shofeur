@@ -11,7 +11,7 @@ export default function OwnerDetails() {
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg shadow-lg p-10">
                     <p className="flex gap-5 items-center font-bold text-xl"><FontAwesomeIcon icon={faIdCard} className="self-start text-gray-600 text-6xl" />Chauffeur Always Included</p>
-                    <p>Every reservation includes a chauffeur to drive the vehicle.</p>
+                    <p className="mt-4">Every reservation includes a chauffeur to drive the vehicle.</p>
                 </div>
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg shadow-lg p-10">
                     <p className="font-bold text-lg">About Ryan Malmos</p>
@@ -29,13 +29,14 @@ export default function OwnerDetails() {
                     <p><FontAwesomeIcon icon={faBanSmoking} className="text-gray-600 text-6xl" /> No Smoking</p>
                     <p><FontAwesomeIcon icon={faClock} className="text-gray-600 text-6xl" /> No Minimum</p>
                 </span>
-                <span className="flex flex-col px-5 py-10">
+                <span className="flex flex-col px-5 py-11">
                     <p className="font-bold text-xl">Amenities</p>
-                    <ul>
+                    <ul className="flex flex-col gap-7 mt-7">
                         <li className="text-gray-500">Air Conditioning</li>
                         <li className="text-gray-500">Sun Roof</li>
                         <li className="text-gray-500">Mini Bar</li>
                         <li className="text-gray-500">Music</li>
+                        <li className="text-gray-500">Games</li>
                     </ul>
                 </span>
             </div>
