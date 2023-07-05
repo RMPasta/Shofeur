@@ -24,7 +24,7 @@ export default function OwnerDetails() {
                 </span>
                 <span className="flex flex-col px-5 py-10">
                     <p className="font-bold text-xl">Amenities</p>
-                    <ul className="ml-6">
+                    <ul>
                         <li className="text-gray-500">Air Conditioning</li>
                         <li className="text-gray-500">Sun Roof</li>
                         <li className="text-gray-500">Mini Bar</li>

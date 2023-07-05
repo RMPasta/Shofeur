@@ -7,6 +7,7 @@ import nyc4 from '../../app/assets/nyc-4.jpg';
 import LocationDetails from './LocationDetails';
 import OwnerDetails from './OwnerDetails';
 import LocationPolicies from './LocationPolicies';
+import Footer from "@/components/Footer/Footer"
 
 export default function Location() {
   return (
@@ -39,6 +40,7 @@ export default function Location() {
       <LocationDetails />
       <OwnerDetails />
       <LocationPolicies />
+      <Footer />
     </div>
   );
 }

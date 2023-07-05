@@ -1,6 +1,12 @@
 'use client'
 
 import { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMagnifyingGlass,
+  faCircleStop,
+  faBars
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function SlideOutMenu() {
   const [showMenu, setShowMenu] = useState(false);
@@ -13,7 +19,13 @@ export default function SlideOutMenu() {
 
   return (
     <div className='z-10'>
-      <p onClick={menuToggle} className='hover:cursor-pointer' id="bars">BURGER</p>
+      <p onClick={menuToggle} className='hover:cursor-pointer'>
+        <FontAwesomeIcon
+        icon={faBars}
+        className="text-gray-200 text-2xl"
+      />
+      </p>
+
       <div className={ulClassName}>
         <ul className='w-full'>
             <p className='flex justify-center font-bold text-xl py-4'>Hello, USER!</p>
