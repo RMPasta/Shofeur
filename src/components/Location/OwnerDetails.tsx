@@ -8,7 +8,7 @@ import {
 export default function OwnerDetails() {
     return (
         <div className="flex flex-col lg:flex-row justify-between gap-5 px-10 mt-24 w-full">
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 w-full">
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg p-10">
                     <p className="flex gap-5 items-center font-bold text-xl"><FontAwesomeIcon icon={faIdCard} className="self-start text-gray-600 text-6xl" />Chauffeur Always Included</p>
                     <p className="mt-4">Every reservation includes a chauffeur to drive the vehicle.</p>
@@ -24,7 +24,7 @@ export default function OwnerDetails() {
                     <p className="text-gray-500">SQL</p>
                 </div>
             </div>
-            <div className="flex flex-col gap-1 lg:w-1/2 w-full mb-10 border-2 border-gray-100 rounded shadow-lg p-4">
+            <div className="flex flex-col gap-1 lg:w-3/4 w-full mb-10 border-2 border-gray-100 rounded shadow-lg p-4">
                 <span className="flex justify-between p-5">
                     <p><FontAwesomeIcon icon={faBanSmoking} className="text-gray-600 text-6xl" /> No Smoking</p>
                     <p><FontAwesomeIcon icon={faClock} className="text-gray-600 text-6xl" /> No Minimum</p>

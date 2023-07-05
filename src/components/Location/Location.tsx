@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import partybus from '../../app/assets/party-bus.jpg';
 import nyc1 from '../../app/assets/nyc-1.jpg';
-import nyc2 from '../../app/assets/nyc-2.jpg';
+import nyc2 from '../../app/assets/nyc-2.png';
 import nyc3 from '../../app/assets/nyc-3.jpg';
 import nyc4 from '../../app/assets/nyc-4.jpg';
 import LocationDetails from './LocationDetails';
@@ -14,7 +14,7 @@ import {
 
 export default function Location() {
   return (
-    <div className="flex flex-col px-40 py-4 mt-24 w-full self-center">
+    <div className="flex flex-col px-40 py-4 mt-24 w-full self-center ">
       <div className="flex flex-col gap-5 p-6">
         <h2 className="text-3xl font-bold">Luxury Party Bus NYC</h2>
         <span className="flex gap-4">
@@ -22,7 +22,7 @@ export default function Location() {
         icon={faStar}
         className="text-yellow-500 text-xl"
       />  4.5</p>
-          <p>10 reservations</p>
+          <p>30 reservations</p>
           <p>New York City, New York</p>
         </span>
       </div>

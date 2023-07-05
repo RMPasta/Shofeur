@@ -9,7 +9,7 @@ export default function LocationDetails() {
             <div className="flex flex-col gap-1 w-full md:w-3/5">
                 <h3 className='flex items-center gap-1 text-2xl'><strong>Hosted by</strong> Ryan Malmos</h3>
                 <p>10 Guests</p>
-                <p>This luxury party bus will take your group anywhere in NYC in style! You're sure to start your night with a bang when you ride with us.</p>
+                <p>This luxury party bus will take your group anywhere in NYC in style! You're sure to start your night with a bang when you ride with us. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Vehicula ipsum a arcu cursus vitae congue. Viverra aliquet eget sit amet.</p>
             </div>
             <div className='flex flex-col items-center w-3/5 lg:w-2/5 border-2 border-gray-100 rounded shadow-lg py-8'>
                 <span className='flex justify-around w-full text-xl mb-6'>
