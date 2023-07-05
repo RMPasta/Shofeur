@@ -1,6 +1,6 @@
 export default function Navigation() {
     return (
-        <div className="flex justify-between items-center fixed t-0 px-40 w-full h-20 bg-slate-800 bg-opacity-95 text-slate-200">
+        <div className="flex justify-between items-center fixed t-0 px-40 w-full h-20 bg-slate-900 bg-opacity-95 text-slate-200">
             <div className="flex justify-between items-center gap-5">
                 <p>hamburger</p>
                 <h1 className="text-3xl">Shofeur</h1>

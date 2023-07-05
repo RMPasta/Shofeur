@@ -1,11 +1,11 @@
-import LocationDetails from "@/components/LocationDetails"
+import Location from "@/components/Location"
 import Navigation from "@/components/Navigation"
 
 export default function Home() {
   return (
     <main className="flex">
       <Navigation />
-      <LocationDetails />
+      <Location />
     </main>
   )
 }

@@ -1,29 +1,17 @@
-import Image from 'next/image';
-import partybus from '../app/assets/party-bus.jpg';
-
 export default function LocationDetails() {
     return (
-        <div className="flex flex-col items-center px-40 mt-24 w-full">
-            <div className="flex flex-col items-center gapx-5">
-                <h2 className="text-2xl">Luxury Party Bus NYC</h2>
-                <span className="flex gap-4">
+        <div className="flex justify-between items-center gap-5 px-40 mt-24 w-full">
+            <div className="flex flex-col gap-1 w-3/5">
+                <h3 className='flex items-center gap-1 text-2xl'><strong>Hosted by</strong> Ryan Malmos</h3>
+                <p>10 Guests</p>
+                <p>This luxury party bus will take your group anywhere in NYC in style! You're sure to start your night with a bang when you ride with us.</p>
+            </div>
+            <div className='flex flex-col justify-center items-center w-2/5 border-2 border-slate-100 rounded shadow-lg shadow-lg py-4'>
+                <span className='flex justify-around w-full text-xl'>
+                    <p>$120/hr</p>
                     <p>Star 4.5</p>
-                    <p>10 reservations</p>
-                    <p>New York City, New York</p>
                 </span>
-            </div>
-            <div>
-            <Image
-                src={partybus}
-                alt="Party Bus"
-                width={600}
-                height={400}
-                />
-            </div>
-            <div className="flex gap-10 justify-between items-center">
-                <a>Add a Listing</a>
-                <a>Sign Up</a>
-                <a>Log In</a>
+                <button className='rounded w-60 h-10 bg-amber-500 text-slate-100 hover:bg-amber-600'>RESERVE</button>
             </div>
         </div>
     )
