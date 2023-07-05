@@ -1,6 +1,6 @@
 
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
     return (
     <div className="flex justify-between items-center h-12 w-full mt-20">
         <a href="https://rmpasta.github.io/RMPortfolio/" target="_blank" className="transition-colors duration-700 hover:bg-slate-700 hover:text-gray-200 w-1/3 h-full flex items-center justify-center hover:cursor-pointer ">Portfolio</a>

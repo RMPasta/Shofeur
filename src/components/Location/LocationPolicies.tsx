@@ -4,7 +4,7 @@ import {
   faMoneyBill,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function LocationPolicies() {
+export default function LocationPolicies(): JSX.Element {
     return (
         <div className="flex flex-col gap-5 px-10 mt-24 w-full">
             <h3 className="font-bold text-2xl">Policies</h3>

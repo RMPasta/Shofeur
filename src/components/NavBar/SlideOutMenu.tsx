@@ -7,7 +7,7 @@ import {
   faBars
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function SlideOutMenu() {
+export default function SlideOutMenu(): JSX.Element {
   const [showMenu, setShowMenu] = useState(false);
   const [showX, setShowX] = useState(false);
 

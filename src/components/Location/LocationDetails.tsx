@@ -3,10 +3,10 @@ import {
   faStar
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function LocationDetails() {
+export default function LocationDetails(): JSX.Element {
     return (
         <div className="flex flex-col lg:flex-row justify-between items-center gap-5 px-10 mt-24 w-full">
-            <div className="flex flex-col gap-1 w-full md:w-3/5">
+            <div className="flex flex-col gap-1 w-full">
                 <h3 className='flex items-center gap-1 text-2xl'><strong>Hosted by</strong> Ryan Malmos</h3>
                 <p>10 Guests</p>
                 <p>This luxury party bus will take your group anywhere in NYC in style! You're sure to start your night with a bang when you ride with us. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Vehicula ipsum a arcu cursus vitae congue. Viverra aliquet eget sit amet.</p>

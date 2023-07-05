@@ -12,9 +12,9 @@ import {
   faStar
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function Location() {
+export default function Location(): JSX.Element {
   return (
-    <div className="flex flex-col px-40 py-4 mt-24 w-full self-center ">
+    <div className="flex flex-col md:px-10 lg:px-40 py-4 mt-24 w-full self-center ">
       <div className="flex flex-col gap-5 p-6">
         <h2 className="text-3xl font-bold">Luxury Party Bus NYC</h2>
         <span className="flex gap-4">

@@ -5,7 +5,7 @@ import {
   faIdCard,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function OwnerDetails() {
+export default function OwnerDetails(): JSX.Element {
     return (
         <div className="flex flex-col lg:flex-row justify-between gap-5 px-10 mt-24 w-full">
             <div className="flex flex-col gap-5 w-full">
