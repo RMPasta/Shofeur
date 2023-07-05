@@ -19,7 +19,7 @@ export default function Location() {
           <p>New York City, New York</p>
         </span>
       </div>
-      <div className="self-center flex overflow-x-scroll snap-x snap-mandatory">
+      <div className="w-400 self-center flex overflow-x-scroll scroll-smooth snap-x snap-mandatory">
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
           <Image src={partybus} alt="Party Bus" width={800} height={400} />
         </div>
