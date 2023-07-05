@@ -7,7 +7,10 @@ import nyc4 from '../../app/assets/nyc-4.jpg';
 import LocationDetails from './LocationDetails';
 import OwnerDetails from './OwnerDetails';
 import LocationPolicies from './LocationPolicies';
-import Footer from "@/components/Footer/Footer"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faStar
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Location() {
   return (
@@ -15,7 +18,10 @@ export default function Location() {
       <div className="flex flex-col gap-5 p-6">
         <h2 className="text-3xl font-bold">Luxury Party Bus NYC</h2>
         <span className="flex gap-4">
-          <p>Star 4.5</p>
+          <p><FontAwesomeIcon
+        icon={faStar}
+        className="text-yellow-500 text-xl"
+      />  4.5</p>
           <p>10 reservations</p>
           <p>New York City, New York</p>
         </span>
@@ -40,7 +46,6 @@ export default function Location() {
       <LocationDetails />
       <OwnerDetails />
       <LocationPolicies />
-      <Footer />
     </div>
   );
 }

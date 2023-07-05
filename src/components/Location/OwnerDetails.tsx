@@ -1,8 +1,16 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBanSmoking,
+  faClock,
+  faIdCard,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function OwnerDetails() {
     return (
         <div className="flex justify-between gap-5 px-10 mt-24 w-full">
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-1 w-full border-2 border-gray-100 rounded shadow-lg shadow-lg p-10">
+                    <FontAwesomeIcon icon={faIdCard} className="self-start text-gray-600 text-6xl" />
                     <p>Chauffeur Always Included</p>
                     <p>Every reservation includes a chauffeur to drive the vehicle.</p>
                 </div>
@@ -19,8 +27,8 @@ export default function OwnerDetails() {
             </div>
             <div className="flex flex-col gap-1 w-1/2 mb-10 border-2 border-gray-100 rounded shadow-lg shadow-lg p-4">
                 <span className="flex justify-between p-5">
-                    <p>No Smoking</p>
-                    <p>No Minimum</p>
+                    <p><FontAwesomeIcon icon={faBanSmoking} className="text-gray-600 text-6xl" /> No Smoking</p>
+                    <p><FontAwesomeIcon icon={faClock} className="text-gray-600 text-6xl" /> No Minimum</p>
                 </span>
                 <span className="flex flex-col px-5 py-10">
                     <p className="font-bold text-xl">Amenities</p>

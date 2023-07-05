@@ -3,15 +3,16 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faMagnifyingGlass,
-  faCircleStop,
+  faXmark,
   faBars
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function SlideOutMenu() {
   const [showMenu, setShowMenu] = useState(false);
+  const [showX, setShowX] = useState(false);
 
   const menuToggle = () => {
+      setShowX(!showX)
       setShowMenu(!showMenu);
   };
 
@@ -20,10 +21,16 @@ export default function SlideOutMenu() {
   return (
     <div className='z-10'>
       <p onClick={menuToggle} className='hover:cursor-pointer'>
+        {(showX ?
+        <FontAwesomeIcon
+        icon={faXmark}
+        className="text-gray-200 text-2xl"
+      /> :
         <FontAwesomeIcon
         icon={faBars}
         className="text-gray-200 text-2xl"
       />
+        )}
       </p>
 
       <div className={ulClassName}>
