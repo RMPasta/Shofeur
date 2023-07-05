@@ -6,12 +6,12 @@ export default function LocationDetails() {
                 <p>10 Guests</p>
                 <p>This luxury party bus will take your group anywhere in NYC in style! You're sure to start your night with a bang when you ride with us.</p>
             </div>
-            <div className='flex flex-col justify-center items-center w-2/5 border-2 border-slate-100 rounded shadow-lg shadow-lg py-4'>
-                <span className='flex justify-around w-full text-xl'>
+            <div className='flex flex-col items-center w-2/5 border-2 border-gray-100 rounded shadow-lg shadow-lg py-8'>
+                <span className='flex justify-around w-full text-xl mb-6'>
                     <p>$120/hr</p>
                     <p>Star 4.5</p>
                 </span>
-                <button className='rounded w-60 h-10 bg-amber-500 text-slate-100 hover:bg-amber-600'>RESERVE</button>
+                <button className='transition-colors duration-700 rounded w-60 h-10 bg-amber-500 text-gray-100 hover:bg-amber-600'>RESERVE</button>
             </div>
         </div>
     )
