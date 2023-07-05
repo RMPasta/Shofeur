@@ -27,7 +27,7 @@ export default function Location(): JSX.Element {
         </span>
       </div>
       <div className="w-4/5 self-center flex gap-2 overflow-x-scroll scroll-smooth snap-x snap-mandatory">
-        <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
+        <div className="flex-shrink-0 w-full md:w-100 h-100 snap-center snap-always">
           <Image src={partybus} alt="Party Bus" width={800} height={400} />
         </div>
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
