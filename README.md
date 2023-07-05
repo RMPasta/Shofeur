@@ -4,4 +4,4 @@
 
 ### Next JS | TypeScript | Tailwind CSS
 
-To run locally, run npm install in the terminal and then run npm run dev
+To run project locally, run `npm install` in the root folder and then run `npm run dev`
