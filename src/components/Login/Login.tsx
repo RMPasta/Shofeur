@@ -11,7 +11,7 @@ export default function Login(): JSX.Element {
 
     return (
     <div className={loginClassName}>
-        <div className='relative t-0 flex justify-end w-full self-end' onClick={() => setShowLogin(!showLogin)}>
+        <div className='relative t-0 flex justify-end w-full self-end cursor-pointer' onClick={() => setShowLogin(!showLogin)}>
             <FontAwesomeIcon
                 icon={faXmark}
                 className="text-gray-200 text-3xl p-6"
@@ -20,7 +20,7 @@ export default function Login(): JSX.Element {
         <form className='flex flex-col gap-4 mt-60 bg-gray-900 p-14 rounded'>
             <input type="text" placeholder="Username or Email" className="p-2 rounded" required />
             <input type="text" placeholder="Password" className="p-2 rounded" required />
-            <button className="ransition-colors duration-700 rounded p-2 bg-amber-500 text-gray-100 hover:bg-amber-600">Log In</button>
+            <button className="transition-colors duration-700 rounded p-2 bg-amber-500 text-gray-100 hover:bg-amber-600">Log In</button>
         </form>
     </div>
     );

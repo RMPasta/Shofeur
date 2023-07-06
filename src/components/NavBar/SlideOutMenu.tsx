@@ -2,19 +2,20 @@
 
 import { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faXmark,
-  faBars
-} from "@fortawesome/free-solid-svg-icons";
+import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { useThemeContext } from '../../app/context/theme';
 
 export default function SlideOutMenu(): JSX.Element {
   const [showMenu, setShowMenu] = useState(false);
   const [showX, setShowX] = useState(false);
+  const { showLogin, setShowLogin}:any = useThemeContext();
+  const { showSignUp, setShowSignUp}:any = useThemeContext();
 
   const menuToggle = () => {
       setShowX(!showX)
       setShowMenu(!showMenu);
   };
+
 
   const ulClassName = "w-3/5 md:w-1/5 h-screen flex flex-col justify-between bg-gray-100 text-gray-800 transition-left duration-700" + (!showMenu ? " w-1/6 absolute -left-full top-16" : " w-2/5 md:w-1/3 lg:w-1/5 absolute left-0 top-16");
 
@@ -37,8 +38,14 @@ export default function SlideOutMenu(): JSX.Element {
         <ul className='w-full'>
             <p className='flex justify-center font-bold text-xl py-4'>Hello, USER!</p>
             <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer'>Add a listing</li>
-            <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer'>Sign Up</li>
-            <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer'>Log In</li>
+            <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer' onClick={() => {
+            setShowSignUp(!showSignUp)
+            setShowLogin(false)
+          }}>Sign Up</li>
+            <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer' onClick={() => {
+            setShowLogin(!showLogin)
+            setShowSignUp(false)
+          }}>Log In</li>
             <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer'>Add a listing</li>
         </ul>
         <ul className='w-full mb-20'>

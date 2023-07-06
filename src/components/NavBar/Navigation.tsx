@@ -14,8 +14,14 @@ export default function Navigation(): JSX.Element {
         </div>
         <div className="hidden md:flex h-full w-2/5">
           <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer">Add a Listing</div>
-          <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer" onClick={() => setShowLogin(!showLogin)}>Sign Up</div>
-          <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer" onClick={() => setShowLogin(!showLogin)}>Log In</div>
+          <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer" onClick={() => {
+            setShowSignUp(!showSignUp)
+            setShowLogin(false)
+          }}>Sign Up</div>
+          <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer" onClick={() => {
+            setShowLogin(!showLogin)
+            setShowSignUp(false)
+          }}>Log In</div>
         </div>
       </div>
     );
