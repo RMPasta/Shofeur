@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
       <Navigation />
       <Location />
       <Footer />
-      {/* <Login /> */}
+      <Login />
     </main>
   )
 }
