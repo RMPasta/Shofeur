@@ -26,21 +26,21 @@ export default function Location(): JSX.Element {
           <p>New York City, New York</p>
         </span>
       </div>
-      <div className="w-4/5 self-center flex gap-2 overflow-x-scroll scroll-smooth snap-x snap-mandatory mt-8">
-        <div className="flex-shrink-0 git adw-100 h-100 snap-center snap-always">
-          <Image src={partybus} alt="Party Bus" width={800} height={400} loading="eager" />
+      <div className="w-full md:w-3/5 self-center flex gap-2 overflow-x-scroll scroll-smooth snap-x snap-mandatory mt-8">
+        <div className="flex-shrink-0 snap-center snap-always">
+          <Image src={partybus} alt="Party Bus" width={600} height={400} loading="eager" />
         </div>
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
-          <Image src={nyc1} alt="NYC 1" width={800} height={400} loading="eager" />
+          <Image src={nyc1} alt="NYC 1" width={600} height={400} loading="eager" />
         </div>
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
-          <Image src={nyc2} alt="NYC 2" width={800} height={400} loading="eager" />
+          <Image src={nyc2} alt="NYC 2" width={600} height={400} loading="eager" />
         </div>
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
-          <Image src={nyc3} alt="NYC 3" width={800} height={400} loading="eager" />
+          <Image src={nyc3} alt="NYC 3" width={600} height={400} loading="eager" />
         </div>
         <div className="flex-shrink-0 w-100 h-100 snap-center snap-always">
-          <Image src={nyc4} alt="NYC 4" width={800} height={400} loading="eager" />
+          <Image src={nyc4} alt="NYC 4" width={600} height={400} loading="eager" />
         </div>
       </div>
       <LocationDetails />

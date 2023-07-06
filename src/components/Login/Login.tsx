@@ -17,7 +17,7 @@ export default function Login(): JSX.Element {
                     className="text-gray-200 text-3xl p-6"
                 />
             </div>
-            <form className='flex flex-col gap-4 mt-60 bg-gray-900 p-14 rounded'>
+            <form className='flex flex-col gap-4 mt-20 md:mt-60 bg-gray-900 p-14 rounded'>
                 <input type="text" placeholder="Username or Email" className="p-2 rounded" required />
                 <input type="password" placeholder="Password" className="p-2 rounded" required />
                 <button className="transition-colors duration-700 rounded p-2 bg-amber-500 text-gray-100 hover:bg-amber-600">Log In</button>

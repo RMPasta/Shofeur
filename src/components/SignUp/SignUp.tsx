@@ -17,7 +17,7 @@ export default function SignUp(): JSX.Element {
                 className="text-gray-200 text-3xl p-6"
             />
         </div>
-        <form className='flex flex-col gap-4 mt-50 bg-gray-900 p-14 rounded'>
+        <form className='flex flex-col gap-4 mt-10 md:mt-20 bg-gray-900 p-14 rounded'>
             <input type="text" placeholder="First Name" className="p-2 rounded" required />
             <input type="text" placeholder="Last Name" className="p-2 rounded" required />
             <input type="text" placeholder="Email" className="p-2 rounded" required />
