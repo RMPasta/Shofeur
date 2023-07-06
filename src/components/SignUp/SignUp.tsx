@@ -3,9 +3,16 @@
 import { useThemeContext } from '../../app/context/theme';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
 
 export default function SignUp(): JSX.Element {
     const { showSignUp, setShowSignUp}:any = useThemeContext();
+
+    useEffect(() => {
+        if (showSignUp) {
+            document.title = "Sign Up | Shofeur";
+        }
+    }, [showSignUp]);
 
     const signUpClassName = (!showSignUp ? "hidden" : "fixed top-16 left-0 z-50 flex flex-col items-center h-screen w-full bg-gray-900 bg-opacity-90");
 

@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBanSmoking,
-  faClock,
-  faIdCard,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBanSmoking, faClock, faIdCard } from "@fortawesome/free-solid-svg-icons";
 
 export default function OwnerDetails(): JSX.Element {
     return (

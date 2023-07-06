@@ -1,8 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBanSmoking,
-  faMoneyBill,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBanSmoking, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 
 export default function LocationPolicies(): JSX.Element {
     return (

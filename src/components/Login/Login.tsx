@@ -3,11 +3,19 @@
 import { useThemeContext } from '../../app/context/theme';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
 
 export default function Login(): JSX.Element {
     const { showLogin, setShowLogin }: any = useThemeContext();
 
     const loginClassName = (!showLogin ? "hidden" : "fixed top-16 left-0 z-50 flex flex-col items-center h-screen w-full bg-gray-900 bg-opacity-90");
+
+    useEffect(() => {
+        if (showLogin) {
+            document.title = "Login | Shofeur";
+        }
+    }, [showLogin]);
+
 
     return (
         <div className={loginClassName}>

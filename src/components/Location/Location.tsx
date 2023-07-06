@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image';
 import partybus from '../../app/assets/party-bus.jpg';
 import nyc1 from '../../app/assets/nyc-1.jpg';
@@ -7,12 +9,21 @@ import nyc4 from '../../app/assets/nyc-4.jpg';
 import LocationDetails from './LocationDetails';
 import OwnerDetails from './OwnerDetails';
 import LocationPolicies from './LocationPolicies';
+import { useThemeContext } from '../../app/context/theme';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faStar
-} from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
 
 export default function Location(): JSX.Element {
+  const { showLogin, setShowLogin }:any = useThemeContext();
+  const { showSignUp, setShowSignUp}:any = useThemeContext();
+
+  useEffect(() => {
+    if (!showLogin && !showSignUp) {
+        document.title = "Shofeur Challenge";
+    }
+}, [showLogin, showSignUp]);
+
   return (
     <div className="flex flex-col md:px-10 lg:px-40 py-4 mt-20 w-full self-center ">
       <div className="flex flex-col gap-5 p-6">
