@@ -2,7 +2,7 @@ import SlideOutMenu from "./SlideOutMenu";
 
 export default function Navigation(): JSX.Element {
     return (
-      <div className="flex justify-between gap-10 items-center fixed top-0 px-4 lg:px-40 w-full h-20 bg-gray-950 bg-opacity-90 text-gray-200">
+      <div className="flex justify-between gap-10 items-center fixed top-0 px-4 lg:px-40 w-full h-16 bg-gray-950 bg-opacity-90 text-gray-200">
         <div className="flex justify-between items-center gap-10">
           <SlideOutMenu />
           <h1 className="text-3xl">Shofeur</h1>
