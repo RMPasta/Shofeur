@@ -7,7 +7,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 export default function SignUp(): JSX.Element {
     const { showSignUp, setShowSignUp}:any = useThemeContext();
 
-    const signUpClassName = (!showSignUp ? "hidden" : "absolute mt-16 flex flex-col items-center h-full w-full bg-gray-900 bg-opacity-90");
+    const signUpClassName = (!showSignUp ? "hidden" : "fixed top-16 left-0 z-50 flex flex-col items-center h-screen w-full bg-gray-900 bg-opacity-90");
 
     return (
     <div className={signUpClassName}>
