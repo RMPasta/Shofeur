@@ -12,8 +12,7 @@ export default function Navigation(): JSX.Element {
           <SlideOutMenu />
           <h1 className="text-3xl">Shofeur</h1>
         </div>
-        <div className="hidden md:flex h-full w-2/5">
-          <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer">Add a Listing</div>
+        <div className="hidden md:flex h-full w-1/5">
           <div className="transition-colors duration-700 hover:bg-slate-700 w-2/3 h-full flex items-center justify-center hover:cursor-pointer" onClick={() => {
             setShowSignUp(!showSignUp)
             setShowLogin(false)

@@ -38,7 +38,6 @@ export default function SlideOutMenu(): JSX.Element {
       <div className={ulClassName}>
         <ul className='w-full'>
             <p className='flex justify-center font-bold text-xl py-4'>Hello, USER!</p>
-            <li className='flex justify-center transition-colors duration-700 hover:bg-gray-700 w-full p-4 hover:cursor-pointer'>Add a listing</li>
             <li className='flex justify-center transition-colors duration-700 hover:bg-gray-700 w-full p-4 hover:cursor-pointer' onClick={() => {
             setShowSignUp(!showSignUp)
             setShowLogin(false)
@@ -49,7 +48,6 @@ export default function SlideOutMenu(): JSX.Element {
               setShowSignUp(false)
               menuToggle()
           }}>Log In</li>
-            <li className='flex justify-center transition-colors duration-700 hover:bg-gray-700 w-full p-4 hover:cursor-pointer'>Add a listing</li>
         </ul>
         <ul className='w-full mb-20'>
             <p className='flex justify-center font-bold text-xl py-4'>Built by</p>
