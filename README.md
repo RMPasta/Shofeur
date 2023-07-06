@@ -2,12 +2,11 @@
 
 ## Overview
 
-This is a demo project created for the Shofeur Challenge. It is built using Next.js, TypeScript, and Tailwind CSS.
+This is a demo project created for Shofeur. It is built using Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 
-- The project includes a login and sign-up functionality with a user-friendly interface.
-- It utilizes Next.js for server-side rendering and efficient routing.
+- The project includes a login and sign-up demonstration with a user-friendly interface.
 - TypeScript is used for type safety and improved code quality.
 - Tailwind CSS is employed for easy and responsive styling.
 
@@ -25,7 +24,6 @@ This is a demo project created for the Shofeur Challenge. It is built using Next
 ## Project Structure
 
 - The main application code can be found in the `pages` directory.
-- Stylesheets and Tailwind CSS configurations are located in the `styles` directory.
 - Components and utility functions are placed in their respective directories.
 
 ## Contributing
