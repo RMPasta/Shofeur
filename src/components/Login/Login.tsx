@@ -21,6 +21,7 @@ export default function Login(): JSX.Element {
             <input type="text" placeholder="Username or Email" className="p-2 rounded" required />
             <input type="text" placeholder="Password" className="p-2 rounded" required />
             <button className="transition-colors duration-700 rounded p-2 bg-amber-500 text-gray-100 hover:bg-amber-600">Log In</button>
+            <p className='text-gray-200 text-xs self-center'>Submit disabled for demo</p>
         </form>
     </div>
     );

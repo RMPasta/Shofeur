@@ -41,10 +41,12 @@ export default function SlideOutMenu(): JSX.Element {
             <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer' onClick={() => {
             setShowSignUp(!showSignUp)
             setShowLogin(false)
+            menuToggle()
           }}>Sign Up</li>
             <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer' onClick={() => {
-            setShowLogin(!showLogin)
-            setShowSignUp(false)
+              setShowLogin(!showLogin)
+              setShowSignUp(false)
+              menuToggle()
           }}>Log In</li>
             <li className='flex justify-center hover:bg-gray-200 w-full p-4 hover:cursor-pointer'>Add a listing</li>
         </ul>
