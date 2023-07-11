@@ -4,6 +4,8 @@
 
 This is a demo project created for Shofeur. It is built using Next.js, TypeScript, and Tailwind CSS.
 
+Live demo: [Shofeur Challenge](https://shofeur-challenge.netlify.app/)
+
 ## Features
 
 - The project includes a login and sign-up demonstration with a user-friendly interface.
